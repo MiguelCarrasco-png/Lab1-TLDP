@@ -94,6 +94,6 @@ def search_discogs_and_save(query, search_type='release'):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    search_query = 'Thriller'
+    search_query = 'time'
     search_discogs_and_save(search_query)
 
